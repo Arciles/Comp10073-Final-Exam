@@ -1,0 +1,22 @@
+{
+  "name": "COMP1073 - Final Exam",
+  "authors": [
+    "Esat IBIS <esat.taha.ibis@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "fontawesome#^4.6.1"
+  }
+}
