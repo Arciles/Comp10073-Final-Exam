@@ -6,9 +6,12 @@ body {
 	margin-top: 10em;
 }
 #play-ground {
-	border: 2px dotted purple;
 	text-align: center;
 }
 #dice2 {
 	margin-right: 0;
+}
+
+ header > .container {
+	background-color: #9d9d9d;
 }
