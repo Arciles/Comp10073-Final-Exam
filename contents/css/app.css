@@ -1,0 +1,14 @@
+body {
+	height: 100vh;
+}
+
+.container > .row {
+	margin-top: 10em;
+}
+#play-ground {
+	border: 2px dotted purple;
+	text-align: center;
+}
+#dice2 {
+	margin-right: 0;
+}

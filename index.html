@@ -8,12 +8,40 @@
 	<link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
 	<!--My custom css-->
-	<link rel="stylesheet" href="contents/app.css">
+	<link rel="stylesheet" href="contents/css/app.css">
 </head>
 <body>
 
+<header>
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<a class="navbar-brand" href="#" title="Home page"><i class="fa fa-hand-rock-o fa-spin" aria-hidden="true"></i> Super Excitement Dice Rolling</a>
+		</div>
+	</nav>
+</header>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-6 col-sm-offset-3" id="play-ground">
+			<div class="row">
+				<div class="col-sm-5">
+					<img src="contents/images/3.png" alt="Dice 1" class="thumbnail" id="dice1" width="200" height="200">
+					<p id="p1">Dummy Text</p>
+				</div>
+				<div class="col-sm-5 col-sm-offset-2">
+					<img src="contents/images/2.png" alt="Dice 1" class="thumbnail" id="dice2" width="200" height="200">
+					<p id="p2">Dummy Text</p>
+				</div>
+			</div>
+			<a href="#" class="btn btn-warning btn-lg" id="roll">Roll!!!</a>
+		</div>
+	</div>
 
-
+</div>
+<footer class="footer navbar-fixed-bottom">
+	<div class="container">
+		<p>This website created by Esat IBIS.</p>
+	</div>
+</footer>
 <!--Dependency Libraries-->
 <script src="vendor/jquery/dist/jquery.min.js"></script>
 <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
